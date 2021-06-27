@@ -17,5 +17,4 @@ COPY entrypoint.sh /
 
 EXPOSE 10001
 
-HEALTHCHECK 
 ENTRYPOINT ["/bin/bash", "/entrypoint.sh"] 
