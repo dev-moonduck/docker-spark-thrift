@@ -1,0 +1,14 @@
+<configuration>
+	<property>
+		<name>hive.server2.transport.mode</name>
+		<value>http</value>
+	</property>
+	<property>
+		<name>hive.server2.thrift.http.port</name>
+		<value>10001</value>
+	</property>
+	<property>
+		<name>hive.server2.authentication</name>
+		<value>NOSASL</value>
+	</property>
+</configuration>
