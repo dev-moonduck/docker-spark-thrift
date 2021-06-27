@@ -10,3 +10,9 @@ For example, You can build official spark2.4.8/hadoop2.7 from Apache spark repos
 ```bash
 $ docker build . -t spark2-thrift --build-arg SPARK_REPO=https://downloads.apache.org/spark/spark-2.4.8/spark-2.4.8-bin-hadoop2.7.tgz
 ```
+
+# How to customize Spark thrift server configuration?
+You can mount your config to `/opt/spark/conf/` in container.
+By default, It sets
+- port 10001 is used for Http port
+- NOSASL auth mechanism
